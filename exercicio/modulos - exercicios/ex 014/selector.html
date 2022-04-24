@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor RGB</title>
+    <style>
+        
+        #seletor{
+            background-color: white;
+            border-radius: 10px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin:auto ;
+            color: rgb(red, rgb(113, 233, 113), rgb(72, 72, 141));
+            width: 300px;
+        }
+        .just{
+            text-align: center;
+        
+        }
+        h1{
+           text-align: center; 
+           margin-top: 30vh;
+           color: blanchedalmond;
+        }
+        .ajustar{
+            text-align: center;
+            
+        }
+        
+    </style>
+</head>
+<body style="background-color: black;">
+    <h1>_seletor de cores rgb</h1>
+    <div id="seletor">
+    <ul class="ajustar">
+        <li class="just" style="color: red;">
+        <span>_red</span> 
+        <input class="range" type="range" id="redRange" min="0" max="255">
+        <input class="text" type="text" id="textRed" value="0" disabled size="1px">
+        </li>
+        <li class="just" style="color: green;">
+        <span>_green</span>
+        <input class="range" type="range" id="greenRange" min="0" max="255">
+        <input class="text" type="text" id="textGreen" value="0" disabled size="1px">
+        </li>
+        <li class="just" style="color: blue;">
+        <span>_blue</span> 
+        <input class="range" type="range" id="blueRange" min="0" max="255">
+        <input class="text" type="text" id="textBlue" value="0" disabled size="1px">
+        </li>
+        
+    </ul>
+</div>
+</body>
+</html>
